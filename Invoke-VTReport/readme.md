@@ -25,7 +25,7 @@ https://docs.virustotal.com/reference/overview
 ```powershell
 .\Invoke-VTReport.ps1 -Verbose -tests "bea7557fca6f6aa3fc3be3c2acbdb45f","92.204.58.106","https://www.eventhotels.com/","mail.ru","nomatch"
 ```
-Tests the given Strings against VT with your Mikes APIKey and returns a formatted table sorted by malicious analysis count
+Tests the given Strings against VT with your default APIKey in the script and returns a formatted table sorted by malicious analysis count
 # EXAMPLE 2
 ```powershell
 .\Invoke-VTReport.ps1 -Verbose -tests "92.204.58.106" -ApiKey "myapikeyisawesome123"
